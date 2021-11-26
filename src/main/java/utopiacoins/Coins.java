@@ -29,15 +29,6 @@ public class Coins {
         return listOfSolutions[N];
     }
 
-
-    double getSmallest(int a, int b){
-        if(a <= b){
-            return a;
-        }
-        else{
-            return b;
-        }
-    }
 }
 
 

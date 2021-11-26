@@ -7,6 +7,10 @@ public class Board {
 
     public static int placeQueens(int[] board, int numberOfQueens, int selected)
     {
+        if(board.length < 3 ){
+            System.out.println("Choose a number bigger than 3!");
+            return -1;
+        }
         int count = 0;
         if (selected == numberOfQueens)
         {
