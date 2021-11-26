@@ -7,6 +7,14 @@
 /dataSources/
 /dataSources.local.xml
 
+*/target/*
+compiler.xml
+jarRepositories.xml
+misc.xml
+runConfigurations.xml
+uiDesigner.xml
+vcs.xml
+
 ### Java template
 # Compiled class file
 *.class
