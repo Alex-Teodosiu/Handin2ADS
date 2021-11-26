@@ -47,13 +47,6 @@ public class NQueensTest {
     }
 
     @Test
-    void place8Queens(){
-        int [] board = new int[8];
-        Board.placeQueens(board, 8, 0);
-        Assertions.assertEquals(8, Board.placeQueens(board, 8, 0));
-    }
-
-    @Test
     void safetyCheck(){
         int [] board = new int[4];
         Assertions.assertEquals(false, safeCheck(board, 3));
